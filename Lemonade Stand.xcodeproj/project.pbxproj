@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF62D9F61A2A78F2007E6BFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF62D9F51A2A78F2007E6BFE /* Images.xcassets */; };
 		DF652C121A01F91700DB2E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF652C111A01F91700DB2E2F /* AppDelegate.swift */; };
 		DF652C141A01F91700DB2E2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF652C131A01F91700DB2E2F /* ViewController.swift */; };
 		DF652C171A01F91700DB2E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF652C151A01F91700DB2E2F /* Main.storyboard */; };
-		DF652C191A01F91700DB2E2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF652C181A01F91700DB2E2F /* Images.xcassets */; };
 		DF652C1C1A01F91700DB2E2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF652C1A1A01F91700DB2E2F /* LaunchScreen.xib */; };
 		DF652C281A01F91700DB2E2F /* Lemonade_StandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF652C271A01F91700DB2E2F /* Lemonade_StandTests.swift */; };
+		DF652C321A01F98200DB2E2F /* LemonadeStand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF652C311A01F98200DB2E2F /* LemonadeStand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF62D9F51A2A78F2007E6BFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF652C0C1A01F91700DB2E2F /* Lemonade Stand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemonade Stand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF652C101A01F91700DB2E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF652C111A01F91700DB2E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF652C131A01F91700DB2E2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF652C161A01F91700DB2E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF652C181A01F91700DB2E2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF652C1B1A01F91700DB2E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DF652C211A01F91700DB2E2F /* Lemonade StandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade StandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF652C261A01F91700DB2E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF652C271A01F91700DB2E2F /* Lemonade_StandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemonade_StandTests.swift; sourceTree = "<group>"; };
+		DF652C311A01F98200DB2E2F /* LemonadeStand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonadeStand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,10 @@
 			children = (
 				DF652C111A01F91700DB2E2F /* AppDelegate.swift */,
 				DF652C131A01F91700DB2E2F /* ViewController.swift */,
+				DF652C311A01F98200DB2E2F /* LemonadeStand.swift */,
 				DF652C151A01F91700DB2E2F /* Main.storyboard */,
-				DF652C181A01F91700DB2E2F /* Images.xcassets */,
 				DF652C1A1A01F91700DB2E2F /* LaunchScreen.xib */,
+				DF62D9F51A2A78F2007E6BFE /* Images.xcassets */,
 				DF652C0F1A01F91700DB2E2F /* Supporting Files */,
 			);
 			path = "Lemonade Stand";
@@ -192,9 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF62D9F61A2A78F2007E6BFE /* Images.xcassets in Resources */,
 				DF652C171A01F91700DB2E2F /* Main.storyboard in Resources */,
 				DF652C1C1A01F91700DB2E2F /* LaunchScreen.xib in Resources */,
-				DF652C191A01F91700DB2E2F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +217,7 @@
 			files = (
 				DF652C141A01F91700DB2E2F /* ViewController.swift in Sources */,
 				DF652C121A01F91700DB2E2F /* AppDelegate.swift in Sources */,
+				DF652C321A01F98200DB2E2F /* LemonadeStand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				DF652C2D1A01F91700DB2E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF652C2E1A01F91700DB2E2F /* Build configuration list for PBXNativeTarget "Lemonade StandTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				DF652C301A01F91700DB2E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
